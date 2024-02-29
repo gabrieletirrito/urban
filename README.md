@@ -1,1 +1,3 @@
-# urban
+# Public Transportation Analysis
+
+This analysis focuses on the demand for mobility within the urban public transport system of a small-sized urban area. With only one origin-destination matrix available, the study employs a random simulation of shortest paths (using Dijkstra's algorithm) to estimate which lines are most frequently traveled. The algorithm operates on a graph consisting of nodes representing intersections or bus stops, with edges representing walking or bus travel times. Departure times are randomly generated due to the lack of available data. The analysis is centered on Enna, a small city in Sicily, to assess the effectiveness of the urban transport service in connecting its urban areas.
